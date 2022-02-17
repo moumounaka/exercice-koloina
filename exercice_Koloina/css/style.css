@@ -1,0 +1,168 @@
+/* GENERAL */
+body{
+    font-family: Arial, sans-serif;
+    background: url(../img/background.png);
+    margin: 0;
+}
+
+/* HEADER */
+.logo{
+    margin-left: 12px;
+    font-family:'Courgette',cursive;
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+    background-color: #C55394;
+    color: #FFF;
+
+}
+
+.menu{
+   
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    padding-top: 7px;
+}  
+.menu li a{
+    color: #fff;
+    text-decoration-line: none;
+    
+}
+.menu li{
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.menu li a:hover{
+    background-color: #EB43A3;   
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+/* BODY */
+
+
+.title{
+    text-align: center;
+    margin-top: 80px;  
+    color:#C55394;
+    font-size:9px;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+}
+.arc{
+    position:absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.container{
+    position: relative;
+    box-shadow: 5px 10px 10px 10px #808080e7;
+    border-radius: 5px;
+    background-color:#fff ;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+
+}
+h2{
+    color:#EB43A3;
+    font-size: medium;
+    font-family: "Courgette", cursive;
+    font-size: 20px;
+}
+#text{
+    font-size: 25px;
+}
+.text{
+    font-size: 15px;
+    color: #645d5d;
+}
+.caption{
+    position:relative;
+    display: flex;
+
+}
+.caption img{
+    margin-left:25px;
+}
+figure{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.licorne{
+    width: 200px;
+    height: 200px;
+}
+.name{
+    background-color: #000000bf;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    margin-left: 25px;
+    padding: 8px;
+    font-size:10px;
+}
+.maps{
+    display: flex;
+}
+.adresse{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.lieu{
+    font-size: 18px;
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+.newsletter{
+    font-size: 18px;
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+input{
+    padding: 8px;
+}
+button{
+    background-color: #C55394;
+    color: #fff;
+    border:none;
+    border-radius: 3px;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;   
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* FOOTER */
+.footer{
+    margin-top:50px;
+    position: absolute;
+    background-color: #EB43A3;
+    width: 100%;
+    color: #fff;  
+}
+.signature{
+    position: relative;
+    float: right;
+}
+
+
+
+
